@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Flower Gallery</title>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                background-color: #8fab91;
+                font-family: Arial, sans-serif;
+                color:#192220;
+                line-height: 1.6;
+            }
+            header{
+                text-align: center;
+                background-color: #618264;
+                color:#192220;
+                padding:1rem;
+                width:100%;
+            }
+            nav{
+                background-color: #ffcccb;
+                width:100%;
+                margin:0;
+                padding:1rem;
+                text-align: center;
+                position:relative;
+            }
+            nav a{
+                text-align: center;
+                text-decoration: none;
+                color:#1a0707;
+            }
+            nav a:hover{
+                text-decoration: underline;
+                color: #050101;
+            }
+            section{
+                max-width: 900px;
+                background-color: #edfcee;
+                box-shadow: 0 2px 4px #33333365;
+                padding: 2rem;
+                margin: 1rem auto;
+                border-radius: 16px;
+            }
+            .gallery{
+                justify-content: center;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .gallery img{
+                width: 300px;
+                height: 300px;
+                margin: 5px;
+                object-fit: cover;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px #33333365;
+            }
+            footer{
+                width:100%;
+                background-color: #192220;
+                color:#8fab91;
+                padding: 1rem;
+                margin:0;
+                text-align: center;
+            }
+        </style>    
+    </head>
+    <body>
+        <header>
+            <h1>Beautiful Flowers💐</h1>
+        </header>
+        <nav>
+            <a href="#header">Home🏠</a>
+            <a href="#gallery">Gallery🪟</a>
+            <a href="#contact">Contact📧</a>
+        </nav>
+        <section>
+            <h2>Aesthetic Flowers</h2>
+            <div class="gallery">
+                <img src="https://i.pinimg.com/736x/a2/4c/f8/a24cf8573f5dd7a08591134530e12134.jpg" alt="flower-1">
+                <img src="https://i.pinimg.com/736x/7f/b7/c6/7fb7c62d02d06b122ee4276b5602304e.jpg" alt="flower-2">
+                <img src="https://i.pinimg.com/736x/36/b1/9d/36b19d001486cdb7667feb13532bee44.jpg" alt="flower-3">
+                <img src="https://i.pinimg.com/736x/c6/b7/73/c6b773fb82e65664063c7b0bb4102d4b.jpg" alt="flower-4">
+            </div>
+        </section>
+        <section>
+            <h2>Contact Us📧</h2>
+            <p>Contact us at <a href="indoorbotanica@gmail.com" style="color: #000000; text-decoration: none;">indoorbotanica@gmail.com.</a></p>
+        </section>
+        <footer>&copyIndoor Botanica. All rights reserved.</footer>
+    </body>
+</html>

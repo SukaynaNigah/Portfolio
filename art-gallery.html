@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>Art Gallery</title>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+                background-color: #1B263B;
+                font-family: Arial, sans-serif;
+                color:#192220;
+                line-height: 1.6;
+            }
+            header{
+                text-align: center;
+                background-color: #0D1B2A;
+                color:#E0E1DD;
+                padding:1rem;
+            }
+            nav{
+                background-color:#778DA9;
+                margin:0;
+                padding:1rem;
+                text-align: center;
+                position:relative;
+            }
+            nav a{
+                text-align: center;
+                text-decoration: none;
+                color:#E0E1DD;
+                margin: 10px;
+            }
+            nav a:hover{
+                text-decoration: underline;
+                color: #E0E1DD;
+            }
+            section{
+                max-width: 900px;
+                background-color: #415A77;
+                box-shadow: 0 2px 4px #33333365;
+                padding: 2rem;
+                margin: 1rem auto;
+                border-radius: 16px;
+                color:#E0E1DD;
+            }
+            .gallery{
+                justify-content: center;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .gallery img{
+                width: 300px;
+                height: 300px;
+                margin: 5px;
+                object-fit: cover;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px #33333365;
+            }
+            footer{
+                background-color: #0D1B2A;
+                color:#E0E1DD;
+                padding: 1rem;
+                margin:0;
+                text-align: center;
+            }
+        </style>    
+    </head>
+    <body>
+        <header>
+            <h1>Art Gallery🖼️</h1>
+        </header>
+        <nav>
+            <a href="#header">Home🏠</a>
+            <a href="#gallery">Gallery🪟</a>
+            <a href="#contact">Contact📧</a>
+        </nav>
+        <section>
+            <h2>Abstract Art</h2>
+            <div class="gallery">
+                <img src="https://i.pinimg.com/736x/8f/bc/d2/8fbcd26eacaf38c6a3083998f00c81a7.jpg" alt="art-image-1">
+                <img src="https://i.pinimg.com/736x/4f/4f/01/4f4f01075624c9c322a867c7413030c4.jpg" alt="art-image-2">
+                <img src="https://i.pinimg.com/736x/08/16/c7/0816c747c10215b560a7a1d3b776ee26.jpg" alt="art-image-3">
+                <img src="https://i.pinimg.com/736x/37/d0/76/37d076a2c7063ddaf481af9a292dca0c.jpg" alt="art-image-4">
+            </div>
+        </section>
+        <section>
+            <h2>Contact Us📧</h2>
+            <p>Contact us at <a href="artgallery@gmail.com" style="color: #000000; text-decoration: none;">artgallery@gmail.com.</a></p>
+        </section>
+        <footer>&copyArt Gallery. All rights reserved.</footer>
+    </body>
+</html>

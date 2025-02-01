@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>OOP in Java</title>
+        <style>
+            body{
+             background-color: #EAF4F4;
+             font-family: Arial, sans-serif;
+             margin: 0;
+             padding: 0;
+             display: flex;
+             flex-direction: column;
+            }
+            header{
+                background-color: #6B9080;
+                color:#02351f;
+                margin:0;
+                padding: 1rem;
+                text-align: center;
+            }
+            article{
+                background-color: #CCE3DE;
+                padding: 1rem;
+                margin: 1rem;
+                border:solid 1px color #ddd;
+                border-radius:8px;
+                color:#00140b
+            }
+            nav{
+                background-color: #A4C3B2;
+                margin:0;
+                padding:1rem;
+                text-align: center;
+                text-decoration: none;
+            }
+            nav a{
+                color: #012113;
+                text-decoration: none;
+                margin-right: 1rem;
+            }
+            nav a:hover{
+                text-decoration: underline;
+                color: #001009;
+            }
+            section{
+                flex:2;
+            }
+            main{
+                display: flex;
+                flex:1;
+                padding: 1rem;
+                gap: 1rem;
+            }
+            aside{
+                flex: 1;
+                padding: 1rem;
+                background-color:#CCE3DE;
+                border: 2px solid #ddd;
+                max-width:350px;
+                margin-right: 10px;
+            }
+            aside li a{
+                color: #00140b;
+                text-decoration: none;
+                text-align: center;
+                margin-bottom:1rem;
+            }
+            aside li a:hover{
+                color:#000c07;
+                text-decoration: underline;
+            }
+            article{
+                margin-bottom: 1rem;
+                padding: 1rem;
+                border:solid 1px #ddd;                
+            }
+            footer{
+                background-color: #00140b;
+                color:#F6FFF8;
+                margin:0;
+                padding: 1rem;
+                text-align: center;
+            }
+        </style>    
+    </head>
+    <body>
+        <header>
+            <h1>This is my Blogging page on OOP in Java💻</h1>
+        </header>
+        <nav>
+            <a href="#Articles">Articles📄</a>
+            <a href="#Contact Us">Contact Us📧</a>
+            <a href="#footer">Footer</a>
+        </nav>
+        <main>
+            <section>
+                <h2>Latest Articles</h2>
+                <article>
+                    <h3>Inheritance</h3>
+                    <p>Inheritance in java refers to creating a parent class and a child class and inheriting all features of parent class to the child class.</p>
+                </article>
+                <article>
+                    <h3>Polymorphism</h3>
+                    <p>In OOP polymorphism means having one identity with multiple roles.</p>
+                </article>
+                <article>
+                    <h3>Abstraction</h3>
+                    <p>Abstraction is a process of hiding unecessary details and only showing important part to the user.</p>
+                </article>
+                <article>
+                    <h3>Types of Abstraction</h3>
+                    <p>There are 2 types of abstraction partial and full abstraction. Partial abstraction uses "abstract" keyword with class & has concrete and abstract variables. Full abstraction uses "Interface" and has all abstract variables in the parent class.</p>
+                </article>
+                <article>
+                    <h3>Types of Polymorphism</h3>
+                    <p>There are 2 types of polymorphism.</p>
+                </article>
+            </section>
+            <aside>
+                <h2>Reltated Blogs📔</h2>
+                <ol>
+                    <li><a href="https://www.geeksforgeeks.org/final-keyword-in-java/">Final Keyword in java</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/encapsulation-in-java/">Encapsulation in Java</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/exceptions-in-java/">Java Exception Handling</a></li>
+                </ol>
+            </aside>
+    </main>
+    <footer>
+            <p>&copy;OOP for Java. All Rights Reserved</p>
+        </footer>
+    </body>
+
+</html>

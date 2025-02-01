@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <title>Cat Images</title>    
+        <style>
+            body{
+            font-family: Arial, sans-serif;
+            margin:0rem;
+            padding:0rem;
+            line-height: 1.5;
+            background-color:#F7DCB9;
+            color: #333;}
+            header{
+                background-color: #B99470;
+                color: #333;
+                text-align: center;
+                padding: 1rem;}
+            footer{
+                background-color: #554332;
+                padding:1rem;
+                width:100%;
+                text-align: center;
+                color: #ffffff;}
+            nav{
+                color: white;
+                text-decoration: none;}
+            nav ul{
+                text-decoration: none;
+                text-align: center;
+                list-style: none;
+                background-color: #B5C18E;
+                padding:1rem;
+                width:100%;
+                margin:0rem;
+                color:#ffffff;}
+            nav ul li{
+                display: inline;
+                margin:0px;}
+            nav ul li a{
+                color:#333;
+                margin:10px;
+                text-decoration: none;}
+            nav ul li a:hover{
+                text-decoration: underline;
+                color:#151616;}
+            section{
+                padding: 2rem;
+                background-color:#d7c1a5;
+                box-shadow: 0 2px 4px #33333345;
+                border-radius: 8px;
+                margin:1rem auto;
+                max-width: 800px;
+            }
+            .gallery{
+                justify-content: center;
+                display:flex;
+                flex-wrap: wrap;
+            }
+            .gallery img{
+                width:300px;
+                height:300px;
+                object-fit: cover;
+                margin:5px;
+                border-radius: 4px;
+                box-shadow: 0 2px 4px #33333355;
+                transition: transform 0.3s;
+            }
+            .gallery img:hover{
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <h1>Welcome to Only Cats Club!🐈🐾</h1>
+        <p>Here You will find most addorable cat pictures🐱.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="portfolio-01.html">My Portfolio</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2 id="about">About Cats 😸</h2>
+        <p>Cats are very playful and cute. They have a lot of energy, got unlimited aura♾️. There are many reasons why I love them, the characters I discussed earlier are the most important ones.</p>
+    </section>
+    <section>
+        <h2>Cat Gallery😼</h2>
+        <div id="gallery" class="gallery">
+            <button onclick="document.getElementById('cat-img').src='https://i.pinimg.com/736x/90/54/c9/9054c9d1c125fe8d48b457694d325003.jpg'" style="max-width: 300px; max-height: 50px;">Next Image😺</button>
+            <img src="https://i.pinimg.com/736x/08/45/60/084560ba186dd2a56289c7a473a84151.jpg" alt="Cute Tiramisu Cat" id="cat-img">
+            <button onclick="document.getElementById('cat-img').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YWCj_2K6VnAGYqgG7i3X1s9iyEYw_t8Cjw&s'" style="max-width: 300px; max-height: 50px;">Previous Image😺</button>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqGyuYG934OfJy6MTbppgXgiEZwcLoKl30A&s" alt="Cat 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnuZmMHJN6_JsOR_t5Q9H1lfdyQy_48FiGBg&s" alt="Cat 3">
+            <img src="https://i.pinimg.com/236x/fa/6d/35/fa6d35179a3649cda54d23e6023dcb06.jpg" alt="Cat 4"
+        </div>
+    </section>
+    <section>
+        <div id="contact" class="contact">
+            <h2>Contact Us!📞</h2>
+            <p>Want to suggest some addorable cat pictures? Pleae contact us at <a href="catsonly@gnmail.com" style="color: #000000; text-decoration: none;">catsonly@gmail.com</a>.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Cats only. All rights reserved.🐾</p>
+    </footer>
+    </body>
+</html>
